@@ -1,0 +1,80 @@
+/* Reset margins and set up background layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card layout wrapper */
+.card-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect to make card interactive */
+.card-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Profile image wrapper */
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #e3e8fc;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* Typography styles */
+.profile-name {
+    color: #333333;
+    font-size: 1.5rem;
+    margin: 10px 0 5px 0;
+}
+
+.profile-title {
+    color: #4a90e2;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 15px 0;
+}
+
+.profile-bio {
+    color: #666666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Button style */
+.profile-btn {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.profile-btn:hover {
+    background-color: #357abd;
+}
